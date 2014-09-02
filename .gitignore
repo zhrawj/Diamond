@@ -4,10 +4,10 @@ tmp/
 *.pyc
 *.sublime-*
 MANIFEST
-conf/diamond.conf
+#conf/diamond.conf
 storage
-conf/collectors
-conf/handlers
+#conf/collectors
+#conf/handlers
 version.txt
 src/diamond/version.py
 .idea
