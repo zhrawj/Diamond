@@ -1,0 +1,12 @@
+##############################
+
+#   location /nginx_status {
+#       stub_status     on; 
+#   }
+
+##############################
+
+enabled = True
+req_host = 'localhost'
+req_port = 80
+req_path = '/nginx_status'

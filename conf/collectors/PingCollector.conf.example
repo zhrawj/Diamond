@@ -1,0 +1,4 @@
+enabled = true
+interval = 60
+target_auth = auth.int.jumei.com
+target_ts = test.jumei.com 

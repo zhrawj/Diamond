@@ -1,0 +1,17 @@
+########################
+#  
+#   php-fpm.conf 中添加
+#   pm.status_path = /fpm_status
+#  
+#
+#   nginx 中添加
+#        location /fpm_status {
+#        fastcgi_pass    127.0.0.1:9000;
+#        include         fastcgi_params;
+#        }
+#
+#   curl http://localhost/fpm_status
+#
+#######################
+enabled = True
+status_uri = /fpm_status

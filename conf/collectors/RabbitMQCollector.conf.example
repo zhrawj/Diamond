@@ -1,0 +1,17 @@
+####################
+
+# sudo dpkg -i rabbitmq-server_3.3.4-1_all.deb  // 即最新版本
+
+# cd /usr/lib/rabbitmq/bin/
+# sudo ./rabbitmq-plugins enable rabbitmq_management
+ 
+# sudo pip install pyrabbit
+# vim /etc/rabbitmq/rabbitmq.config
+# [{rabbit, [{loopback_users, []}]}].
+
+####################
+# Option for the RabbitMQ Collector
+enabled = True
+host = localhost:15672
+user = guest
+password = guest

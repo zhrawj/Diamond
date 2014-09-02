@@ -1,0 +1,10 @@
+###################
+
+#  sudo apt-get install python-pymongo
+
+###################
+enabled = True
+path = mongodb
+host = 
+user = 
+passwd = 

@@ -1,0 +1,16 @@
+##################
+
+# apt-get install  python-pysnmp4
+
+##################
+
+enabled = True
+path = snmpinterface
+interval = 30
+
+[devices]
+
+[[switch1]]
+host =  
+port = 161
+community = public

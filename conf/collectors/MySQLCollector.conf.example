@@ -1,0 +1,6 @@
+enabled = True
+host = "localhost"
+user = "root"
+passwd = "123"  
+port = 3306
+db = ""
