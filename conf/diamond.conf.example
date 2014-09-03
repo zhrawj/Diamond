@@ -27,12 +27,12 @@
 
 [server]
 
-# handlers = diamond.handler.rabbitmq_pubsub.rmqHandler 
-handlers = diamond.handler.graphite.GraphiteHandler, diamond.handler.mysql.MySQLHandler
+# handlers = diamond.handler.rabbitmq_pubsub.rmqHandler ,diamond.handler.mysql.MySQLHandler
+handlers = diamond.handler.graphite.GraphiteHandler 
 user =
 group =
 pid_file = /var/run/diamond.pid
-collectors_path = /usr/local/share/diamond/collectors
+collectors_path = /usr/share/diamond/collectors
 collectors_config_path = /etc/diamond/collectors/
 handlers_config_path = /etc/diamond/handlers/
 collectors_reload_interval = 3600
