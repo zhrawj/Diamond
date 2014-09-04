@@ -3,4 +3,4 @@
 # python-redis >= 2.4.9
 ##################
 enabled=True
-instances = 127.0.0.1:6379/passwd, 127.0.0.1:6380/passed
+instances = 127.0.0.1:6379, 127.0.0.1:6380
