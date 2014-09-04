@@ -11,17 +11,13 @@ status_uri = /apc_status
 #        fastcgi_pass    127.0.0.1:9099;
 #        include         fastcgi_params;
 #    } 
-#  stats_apc.php  
+＃
+＃
+#  
+＃　cat stats_apc.php  
 #  
 #  <?php
-#  /**
-#  * Helper file for PhpApcCollector.py
-#  * collectes php apc statistics for Graphite with Diamond
-#  *
-#  * @author Károly Nagy <n_karoly@ymail.com>
-#  * http://charlesnagy.info/
-#  *
-#  */
+
 #  $cache = apc_cache_info();
 #  $cache_user = apc_cache_info('user', 1);
 #  $mem = apc_sma_info();
